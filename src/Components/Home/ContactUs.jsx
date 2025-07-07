@@ -10,14 +10,14 @@ export default function ContactUs() {
         </p>
       </div>
 
-      <div className="grid gap-10 md:grid-cols-2">
+      <div className="md:grid md:grid-cols-2">
         {/* Contact Info */}
         <div className="flex flex-col gap-6">
           <div className="flex items-start gap-4">
             <FaMapMarkerAlt className="text-roti-500 text-2xl mt-1" />
             <div>
-              <h3 className="font-semibold text-gray-800">Our Office</h3>
-              <p className="text-gray-600">Blantyre, Malawi</p>
+              <h3 className="font-semibold text-gray-800">Our Address</h3>
+              <p className="text-gray-600">Kanjedza, Blantyre, Malawi</p>
             </div>
           </div>
 
@@ -25,7 +25,7 @@ export default function ContactUs() {
             <FaEnvelope className="text-roti-500 text-2xl mt-1" />
             <div>
               <h3 className="font-semibold text-gray-800">Email Us</h3>
-              <p className="text-gray-600">info@humblecarrentals.mw</p>
+              <p className="text-gray-600">blessingsmwanza11@gmail.com</p>
             </div>
           </div>
 
@@ -33,7 +33,8 @@ export default function ContactUs() {
             <FaPhoneAlt className="text-roti-500 text-2xl mt-1" />
             <div>
               <h3 className="font-semibold text-gray-800">Call Us</h3>
-              <p className="text-gray-600">+265 999 000 111</p>
+              <p className="text-gray-600">+265 99 873 6501</p>
+              <p className="text-gray-600">+265 88 406 8439</p>
             </div>
           </div>
         </div>

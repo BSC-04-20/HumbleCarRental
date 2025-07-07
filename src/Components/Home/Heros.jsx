@@ -2,7 +2,7 @@ import DestinationPriceSelector from "./HerosPrices";
 
 export default function Heros() {
   return (
-    <div className="relative bg-[url('/assets/yellow-car.webp')] bg-no-repeat bg-cover bg-center w-full min-h-[80vh] flex justify-center items-center">
+    <div className="relative bg-[url('/assets/yellow-car.webp')] bg-no-repeat bg-cover bg-center w-full min-h-max md:min-h-[80vh] py-10 flex justify-center items-center">
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
 

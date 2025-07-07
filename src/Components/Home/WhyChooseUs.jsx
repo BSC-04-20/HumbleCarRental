@@ -28,7 +28,7 @@ export default function WhyChooseUs() {
         </p>
       </div>
 
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-2 sm:gap-3 md:gap-8 sm:grid-cols-3">
         {features.map((feature, index) => (
           <div
             key={index}

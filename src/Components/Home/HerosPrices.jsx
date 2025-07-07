@@ -1,13 +1,23 @@
 import { useState } from "react";
 
 const destinations = {
-  "Lilongwe": "MK 80,000",
-  "Mzuzu": "MK 120,000",
-  "Zomba": "MK 45,000",
-  "Mangochi": "MK 90,000",
-  "Salima": "MK 85,000",
+  "Balaka": "MK 65,000",
+  "Blantyre": "MK 45,000",
+  "Chikwawa": "MK 70,000",
+  "Dedza": "MK 70,000",
+  "Lilongwe": "MK 90,000",
+  "Liwonde": "MK 70,000",
+  "Machinga": "MK 70,000",
+  "Mangochi": "MK 80,000",
+  "Mulanje": "MK 60,000",
+  "Mwanza": "MK 70,000",
+  "Nsanje": "MK 85,000",
   "Ntcheu": "MK 70,000",
+  "Salima": "MK 85,000",
+  "Thyolo": "MK 55,000",
+  "Zomba": "MK 60,000"
 };
+
 
 export default function DestinationPriceSelector() {
   const [selectedDistrict, setSelectedDistrict] = useState("Lilongwe");

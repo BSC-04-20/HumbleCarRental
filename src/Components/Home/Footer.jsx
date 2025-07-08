@@ -1,4 +1,5 @@
 import { FaPhoneAlt, FaEnvelope, FaFacebook, FaInstagram, FaMapMarkerAlt } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -7,7 +8,7 @@ export default function Footer() {
 
         {/* Logo & Description */}
         <div>
-          <h2 className="text-2xl font-extrabold text-roti-500">Humble Car Rental</h2>
+          <h2 className="text-2xl font-extrabold text-roti-500">Humble's Car Rental</h2>
           <p className="mt-2 text-sm">
             Affordable, reliable, and comfortable car rental services based in Blantyre, serving 15+ districts in Malawi.
           </p>
@@ -42,7 +43,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-2">
               <FaEnvelope className="text-roti-500" />
-              <span>info@humblecarrentals.mw</span>
+              <span>blessingsmwanza11@gmail.com</span>
             </li>
           </ul>
         </div>
@@ -53,6 +54,7 @@ export default function Footer() {
           <div className="flex gap-4 text-roti-500 text-xl">
             <a href="#"><FaFacebook /></a>
             <a href="#"><FaInstagram /></a>
+            <a href="#"><FaXTwitter/></a>
             {/* Add more social icons if needed */}
           </div>
         </div>

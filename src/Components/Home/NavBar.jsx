@@ -39,7 +39,9 @@ export default function NavBar() {
 
       {/* Small screen navbar (sm only) */}
       <nav className="hidden sm:flex md:hidden items-center justify-between px-6">
-        <img src={Logo} className="h-12 w-12 object-contain" />
+        <div className="h-16 w-16">
+            <img src={Logo} className="object-cover scale-125" />
+        </div>
         <div className="flex gap-4 items-center">
           <NavLink to="/" className={navLinkClass}>Home</NavLink>
           <NavLink to="/about" className={navLinkClass}>About</NavLink>
@@ -49,7 +51,9 @@ export default function NavBar() {
 
       {/* Mobile Navbar (xs only) */}
       <nav className="flex sm:hidden items-center justify-between px-4">
-        <img src={Logo} className="h-10 w-10 object-contain" />
+        <div className="h-16 w-16">
+            <img src={Logo} className="object-cover scale-125" />
+        </div>
         <button
           className="text-3xl text-tarawera-900 relative w-8 h-8"
           onClick={() => setMenuOpen(!menuOpen)}

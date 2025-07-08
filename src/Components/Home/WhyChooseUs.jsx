@@ -20,10 +20,10 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-white dark:bg-tarawera-950 py-12 px-6 md:px-12 lg:px-20">
+    <section className="bg-tarawera-950 py-12 px-6 md:px-12 lg:px-20">
       <div className="text-center mb-12">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-roti-500 mb-3">Why Choose Us</h2>
-        <p className="text-gray-600 dark:text-gray-300 max-w-xl mx-auto text-sm sm:text-base">
+        <p className="text-gray-300 max-w-xl mx-auto text-sm sm:text-base">
           Discover what makes Humble Car Rental your best option for affordable, safe, and efficient transport.
         </p>
       </div>
@@ -32,11 +32,11 @@ export default function WhyChooseUs() {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="bg-white dark:bg-tarawera-900 border border-gray-200 dark:border-gray-800 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-300"
+            className="bg-tarawera-900 border border-gray-800 rounded-lg p-6 shadow-sm hover:shadow-md transition duration-300"
           >
             <div className="mb-4">{feature.icon}</div>
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-100">{feature.title}</h3>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mt-2">{feature.description}</p>
+            <h3 className="text-lg font-semibold text-gray-100">{feature.title}</h3>
+            <p className="text-sm text-gray-400 mt-2">{feature.description}</p>
           </div>
         ))}
       </div>
